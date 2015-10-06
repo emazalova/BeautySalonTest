@@ -1,0 +1,686 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		243E33F79738086710DBD48F /* libPods-BeautySalon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3287B9583ACBF1487C272C1 /* libPods-BeautySalon.a */; };
+		E11393261BBC07EC00EF6319 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E11393251BBC07EC00EF6319 /* main.m */; };
+		E11393291BBC07EC00EF6319 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E11393281BBC07EC00EF6319 /* AppDelegate.m */; };
+		E113932C1BBC07EC00EF6319 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E113932B1BBC07EC00EF6319 /* ViewController.m */; };
+		E113932F1BBC07EC00EF6319 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E113932D1BBC07EC00EF6319 /* Main.storyboard */; };
+		E11393321BBC07EC00EF6319 /* BeautySalon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E11393301BBC07EC00EF6319 /* BeautySalon.xcdatamodeld */; };
+		E11393341BBC07EC00EF6319 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E11393331BBC07EC00EF6319 /* Assets.xcassets */; };
+		E11393371BBC07EC00EF6319 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E11393351BBC07EC00EF6319 /* LaunchScreen.storyboard */; };
+		E11393421BBC07EC00EF6319 /* BeautySalonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E11393411BBC07EC00EF6319 /* BeautySalonTests.m */; };
+		E113934D1BBC07EC00EF6319 /* BeautySalonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E113934C1BBC07EC00EF6319 /* BeautySalonUITests.m */; };
+		E1DCF7371BBE85140070BDF8 /* AddServiceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DCF7361BBE85140070BDF8 /* AddServiceCell.m */; settings = {ASSET_TAGS = (); }; };
+		E1DCF73A1BBEC9380070BDF8 /* ModalTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DCF7391BBEC9380070BDF8 /* ModalTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		E1E56F7D1BBC36C5004D55A8 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E56F7C1BBC36C5004D55A8 /* TableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		E1E56F801BBC76F0004D55A8 /* human.png in Resources */ = {isa = PBXBuildFile; fileRef = E1E56F7E1BBC76F0004D55A8 /* human.png */; settings = {ASSET_TAGS = (); }; };
+		E1E56F811BBC76F0004D55A8 /* trash.png in Resources */ = {isa = PBXBuildFile; fileRef = E1E56F7F1BBC76F0004D55A8 /* trash.png */; settings = {ASSET_TAGS = (); }; };
+		E1E56F861BBC86D4004D55A8 /* ContactTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E56F851BBC86D4004D55A8 /* ContactTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		E1E56F891BBC872E004D55A8 /* ServiceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E56F881BBC872E004D55A8 /* ServiceTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		E1E56F9A1BBD998E004D55A8 /* ServiceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E56F991BBD998E004D55A8 /* ServiceTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		E1E56FA41BBDFAB5004D55A8 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E56F9E1BBDFAB5004D55A8 /* User.m */; settings = {ASSET_TAGS = (); }; };
+		E1E56FA61BBDFAB5004D55A8 /* Service.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E56FA21BBDFAB5004D55A8 /* Service.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E113933E1BBC07EC00EF6319 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E11393191BBC07EC00EF6319 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E11393201BBC07EC00EF6319;
+			remoteInfo = BeautySalon;
+		};
+		E11393491BBC07EC00EF6319 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E11393191BBC07EC00EF6319 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E11393201BBC07EC00EF6319;
+			remoteInfo = BeautySalon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4240859B668999BFF89A3A94 /* Pods-BeautySalon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeautySalon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BeautySalon/Pods-BeautySalon.debug.xcconfig"; sourceTree = "<group>"; };
+		A3287B9583ACBF1487C272C1 /* libPods-BeautySalon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BeautySalon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E11393211BBC07EC00EF6319 /* BeautySalon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeautySalon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E11393251BBC07EC00EF6319 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E11393271BBC07EC00EF6319 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E11393281BBC07EC00EF6319 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E113932A1BBC07EC00EF6319 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E113932B1BBC07EC00EF6319 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E113932E1BBC07EC00EF6319 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E11393311BBC07EC00EF6319 /* BeautySalon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BeautySalon.xcdatamodel; sourceTree = "<group>"; };
+		E11393331BBC07EC00EF6319 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E11393361BBC07EC00EF6319 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E11393381BBC07EC00EF6319 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E113933D1BBC07EC00EF6319 /* BeautySalonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeautySalonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E11393411BBC07EC00EF6319 /* BeautySalonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeautySalonTests.m; sourceTree = "<group>"; };
+		E11393431BBC07EC00EF6319 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E11393481BBC07EC00EF6319 /* BeautySalonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeautySalonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E113934C1BBC07EC00EF6319 /* BeautySalonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeautySalonUITests.m; sourceTree = "<group>"; };
+		E113934E1BBC07EC00EF6319 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1DCF7351BBE85140070BDF8 /* AddServiceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddServiceCell.h; sourceTree = "<group>"; };
+		E1DCF7361BBE85140070BDF8 /* AddServiceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddServiceCell.m; sourceTree = "<group>"; };
+		E1DCF7381BBEC9380070BDF8 /* ModalTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalTableViewController.h; sourceTree = "<group>"; };
+		E1DCF7391BBEC9380070BDF8 /* ModalTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalTableViewController.m; sourceTree = "<group>"; };
+		E1E56F7B1BBC36C5004D55A8 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		E1E56F7C1BBC36C5004D55A8 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		E1E56F7E1BBC76F0004D55A8 /* human.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = human.png; sourceTree = "<group>"; };
+		E1E56F7F1BBC76F0004D55A8 /* trash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trash.png; sourceTree = "<group>"; };
+		E1E56F841BBC86D4004D55A8 /* ContactTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactTableViewCell.h; sourceTree = "<group>"; };
+		E1E56F851BBC86D4004D55A8 /* ContactTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactTableViewCell.m; sourceTree = "<group>"; };
+		E1E56F871BBC872E004D55A8 /* ServiceTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceTableViewCell.h; sourceTree = "<group>"; };
+		E1E56F881BBC872E004D55A8 /* ServiceTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceTableViewCell.m; sourceTree = "<group>"; };
+		E1E56F971BBD2801004D55A8 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		E1E56F981BBD998E004D55A8 /* ServiceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceTableViewController.h; sourceTree = "<group>"; };
+		E1E56F991BBD998E004D55A8 /* ServiceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceTableViewController.m; sourceTree = "<group>"; };
+		E1E56F9D1BBDFAB5004D55A8 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		E1E56F9E1BBDFAB5004D55A8 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		E1E56FA11BBDFAB5004D55A8 /* Service.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Service.h; sourceTree = "<group>"; };
+		E1E56FA21BBDFAB5004D55A8 /* Service.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Service.m; sourceTree = "<group>"; };
+		FE56AA24BE30EA4751F3E23D /* Pods-BeautySalon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeautySalon.release.xcconfig"; path = "Pods/Target Support Files/Pods-BeautySalon/Pods-BeautySalon.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E113931E1BBC07EC00EF6319 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				243E33F79738086710DBD48F /* libPods-BeautySalon.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E113933A1BBC07EC00EF6319 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E11393451BBC07EC00EF6319 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		093C9AE09B01F51E7BA1C61B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3287B9583ACBF1487C272C1 /* libPods-BeautySalon.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B7CD6708695013DF22219F44 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4240859B668999BFF89A3A94 /* Pods-BeautySalon.debug.xcconfig */,
+				FE56AA24BE30EA4751F3E23D /* Pods-BeautySalon.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E11393181BBC07EC00EF6319 = {
+			isa = PBXGroup;
+			children = (
+				E11393231BBC07EC00EF6319 /* BeautySalon */,
+				E11393401BBC07EC00EF6319 /* BeautySalonTests */,
+				E113934B1BBC07EC00EF6319 /* BeautySalonUITests */,
+				E11393221BBC07EC00EF6319 /* Products */,
+				B7CD6708695013DF22219F44 /* Pods */,
+				093C9AE09B01F51E7BA1C61B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E11393221BBC07EC00EF6319 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E11393211BBC07EC00EF6319 /* BeautySalon.app */,
+				E113933D1BBC07EC00EF6319 /* BeautySalonTests.xctest */,
+				E11393481BBC07EC00EF6319 /* BeautySalonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E11393231BBC07EC00EF6319 /* BeautySalon */ = {
+			isa = PBXGroup;
+			children = (
+				E1E56F8A1BBD2208004D55A8 /* Models */,
+				E1E56F831BBC869D004D55A8 /* customCells */,
+				E1E56F821BBC76FE004D55A8 /* images */,
+				E11393271BBC07EC00EF6319 /* AppDelegate.h */,
+				E11393281BBC07EC00EF6319 /* AppDelegate.m */,
+				E113932A1BBC07EC00EF6319 /* ViewController.h */,
+				E113932B1BBC07EC00EF6319 /* ViewController.m */,
+				E1E56F7B1BBC36C5004D55A8 /* TableViewController.h */,
+				E1E56F7C1BBC36C5004D55A8 /* TableViewController.m */,
+				E1E56F981BBD998E004D55A8 /* ServiceTableViewController.h */,
+				E1E56F991BBD998E004D55A8 /* ServiceTableViewController.m */,
+				E1DCF7381BBEC9380070BDF8 /* ModalTableViewController.h */,
+				E1DCF7391BBEC9380070BDF8 /* ModalTableViewController.m */,
+				E113932D1BBC07EC00EF6319 /* Main.storyboard */,
+				E11393331BBC07EC00EF6319 /* Assets.xcassets */,
+				E11393351BBC07EC00EF6319 /* LaunchScreen.storyboard */,
+				E11393381BBC07EC00EF6319 /* Info.plist */,
+				E11393301BBC07EC00EF6319 /* BeautySalon.xcdatamodeld */,
+				E11393241BBC07EC00EF6319 /* Supporting Files */,
+			);
+			path = BeautySalon;
+			sourceTree = "<group>";
+		};
+		E11393241BBC07EC00EF6319 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E11393251BBC07EC00EF6319 /* main.m */,
+				E1E56F971BBD2801004D55A8 /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E11393401BBC07EC00EF6319 /* BeautySalonTests */ = {
+			isa = PBXGroup;
+			children = (
+				E11393411BBC07EC00EF6319 /* BeautySalonTests.m */,
+				E11393431BBC07EC00EF6319 /* Info.plist */,
+			);
+			path = BeautySalonTests;
+			sourceTree = "<group>";
+		};
+		E113934B1BBC07EC00EF6319 /* BeautySalonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E113934C1BBC07EC00EF6319 /* BeautySalonUITests.m */,
+				E113934E1BBC07EC00EF6319 /* Info.plist */,
+			);
+			path = BeautySalonUITests;
+			sourceTree = "<group>";
+		};
+		E1E56F821BBC76FE004D55A8 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				E1E56F7E1BBC76F0004D55A8 /* human.png */,
+				E1E56F7F1BBC76F0004D55A8 /* trash.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		E1E56F831BBC869D004D55A8 /* customCells */ = {
+			isa = PBXGroup;
+			children = (
+				E1E56F841BBC86D4004D55A8 /* ContactTableViewCell.h */,
+				E1E56F851BBC86D4004D55A8 /* ContactTableViewCell.m */,
+				E1E56F871BBC872E004D55A8 /* ServiceTableViewCell.h */,
+				E1E56F881BBC872E004D55A8 /* ServiceTableViewCell.m */,
+				E1DCF7351BBE85140070BDF8 /* AddServiceCell.h */,
+				E1DCF7361BBE85140070BDF8 /* AddServiceCell.m */,
+			);
+			name = customCells;
+			sourceTree = "<group>";
+		};
+		E1E56F8A1BBD2208004D55A8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E1E56F9D1BBDFAB5004D55A8 /* User.h */,
+				E1E56F9E1BBDFAB5004D55A8 /* User.m */,
+				E1E56FA11BBDFAB5004D55A8 /* Service.h */,
+				E1E56FA21BBDFAB5004D55A8 /* Service.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E11393201BBC07EC00EF6319 /* BeautySalon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E11393511BBC07EC00EF6319 /* Build configuration list for PBXNativeTarget "BeautySalon" */;
+			buildPhases = (
+				C639E64D7E998F6A27D46E42 /* Check Pods Manifest.lock */,
+				E113931D1BBC07EC00EF6319 /* Sources */,
+				E113931E1BBC07EC00EF6319 /* Frameworks */,
+				E113931F1BBC07EC00EF6319 /* Resources */,
+				6DC0C5985B745F98E41668BA /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeautySalon;
+			productName = BeautySalon;
+			productReference = E11393211BBC07EC00EF6319 /* BeautySalon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E113933C1BBC07EC00EF6319 /* BeautySalonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E11393541BBC07EC00EF6319 /* Build configuration list for PBXNativeTarget "BeautySalonTests" */;
+			buildPhases = (
+				E11393391BBC07EC00EF6319 /* Sources */,
+				E113933A1BBC07EC00EF6319 /* Frameworks */,
+				E113933B1BBC07EC00EF6319 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E113933F1BBC07EC00EF6319 /* PBXTargetDependency */,
+			);
+			name = BeautySalonTests;
+			productName = BeautySalonTests;
+			productReference = E113933D1BBC07EC00EF6319 /* BeautySalonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E11393471BBC07EC00EF6319 /* BeautySalonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E11393571BBC07EC00EF6319 /* Build configuration list for PBXNativeTarget "BeautySalonUITests" */;
+			buildPhases = (
+				E11393441BBC07EC00EF6319 /* Sources */,
+				E11393451BBC07EC00EF6319 /* Frameworks */,
+				E11393461BBC07EC00EF6319 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E113934A1BBC07EC00EF6319 /* PBXTargetDependency */,
+			);
+			name = BeautySalonUITests;
+			productName = BeautySalonUITests;
+			productReference = E11393481BBC07EC00EF6319 /* BeautySalonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E11393191BBC07EC00EF6319 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Katushka Mazalova";
+				TargetAttributes = {
+					E11393201BBC07EC00EF6319 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					E113933C1BBC07EC00EF6319 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = E11393201BBC07EC00EF6319;
+					};
+					E11393471BBC07EC00EF6319 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = E11393201BBC07EC00EF6319;
+					};
+				};
+			};
+			buildConfigurationList = E113931C1BBC07EC00EF6319 /* Build configuration list for PBXProject "BeautySalon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E11393181BBC07EC00EF6319;
+			productRefGroup = E11393221BBC07EC00EF6319 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E11393201BBC07EC00EF6319 /* BeautySalon */,
+				E113933C1BBC07EC00EF6319 /* BeautySalonTests */,
+				E11393471BBC07EC00EF6319 /* BeautySalonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E113931F1BBC07EC00EF6319 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E11393371BBC07EC00EF6319 /* LaunchScreen.storyboard in Resources */,
+				E1E56F801BBC76F0004D55A8 /* human.png in Resources */,
+				E11393341BBC07EC00EF6319 /* Assets.xcassets in Resources */,
+				E1E56F811BBC76F0004D55A8 /* trash.png in Resources */,
+				E113932F1BBC07EC00EF6319 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E113933B1BBC07EC00EF6319 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E11393461BBC07EC00EF6319 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6DC0C5985B745F98E41668BA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BeautySalon/Pods-BeautySalon-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C639E64D7E998F6A27D46E42 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E113931D1BBC07EC00EF6319 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1DCF7371BBE85140070BDF8 /* AddServiceCell.m in Sources */,
+				E1E56FA41BBDFAB5004D55A8 /* User.m in Sources */,
+				E113932C1BBC07EC00EF6319 /* ViewController.m in Sources */,
+				E11393291BBC07EC00EF6319 /* AppDelegate.m in Sources */,
+				E1E56F891BBC872E004D55A8 /* ServiceTableViewCell.m in Sources */,
+				E1E56FA61BBDFAB5004D55A8 /* Service.m in Sources */,
+				E1E56F861BBC86D4004D55A8 /* ContactTableViewCell.m in Sources */,
+				E11393261BBC07EC00EF6319 /* main.m in Sources */,
+				E1E56F7D1BBC36C5004D55A8 /* TableViewController.m in Sources */,
+				E1DCF73A1BBEC9380070BDF8 /* ModalTableViewController.m in Sources */,
+				E11393321BBC07EC00EF6319 /* BeautySalon.xcdatamodeld in Sources */,
+				E1E56F9A1BBD998E004D55A8 /* ServiceTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E11393391BBC07EC00EF6319 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E11393421BBC07EC00EF6319 /* BeautySalonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E11393441BBC07EC00EF6319 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E113934D1BBC07EC00EF6319 /* BeautySalonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E113933F1BBC07EC00EF6319 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E11393201BBC07EC00EF6319 /* BeautySalon */;
+			targetProxy = E113933E1BBC07EC00EF6319 /* PBXContainerItemProxy */;
+		};
+		E113934A1BBC07EC00EF6319 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E11393201BBC07EC00EF6319 /* BeautySalon */;
+			targetProxy = E11393491BBC07EC00EF6319 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E113932D1BBC07EC00EF6319 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E113932E1BBC07EC00EF6319 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E11393351BBC07EC00EF6319 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E11393361BBC07EC00EF6319 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E113934F1BBC07EC00EF6319 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E11393501BBC07EC00EF6319 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E11393521BBC07EC00EF6319 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4240859B668999BFF89A3A94 /* Pods-BeautySalon.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BeautySalon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BeautySalon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E11393531BBC07EC00EF6319 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE56AA24BE30EA4751F3E23D /* Pods-BeautySalon.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BeautySalon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BeautySalon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E11393551BBC07EC00EF6319 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BeautySalonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BeautySalonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeautySalon.app/BeautySalon";
+			};
+			name = Debug;
+		};
+		E11393561BBC07EC00EF6319 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BeautySalonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BeautySalonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeautySalon.app/BeautySalon";
+			};
+			name = Release;
+		};
+		E11393581BBC07EC00EF6319 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BeautySalonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BeautySalonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BeautySalon;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E11393591BBC07EC00EF6319 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BeautySalonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BeautySalonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BeautySalon;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E113931C1BBC07EC00EF6319 /* Build configuration list for PBXProject "BeautySalon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E113934F1BBC07EC00EF6319 /* Debug */,
+				E11393501BBC07EC00EF6319 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E11393511BBC07EC00EF6319 /* Build configuration list for PBXNativeTarget "BeautySalon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E11393521BBC07EC00EF6319 /* Debug */,
+				E11393531BBC07EC00EF6319 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E11393541BBC07EC00EF6319 /* Build configuration list for PBXNativeTarget "BeautySalonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E11393551BBC07EC00EF6319 /* Debug */,
+				E11393561BBC07EC00EF6319 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E11393571BBC07EC00EF6319 /* Build configuration list for PBXNativeTarget "BeautySalonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E11393581BBC07EC00EF6319 /* Debug */,
+				E11393591BBC07EC00EF6319 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E11393301BBC07EC00EF6319 /* BeautySalon.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E11393311BBC07EC00EF6319 /* BeautySalon.xcdatamodel */,
+			);
+			currentVersion = E11393311BBC07EC00EF6319 /* BeautySalon.xcdatamodel */;
+			path = BeautySalon.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E11393191BBC07EC00EF6319 /* Project object */;
+}
